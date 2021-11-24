@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "pre-update-cmd": "FooInc\\bar::ring"
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "FooInc\\": "./"
+    }
+  }
+}
